@@ -16,4 +16,7 @@ The frontend is deployed on *Vercel*.
 - *CSS3* → Styling and animations
 - *JavaScript (ES6)* → Form handling and API integration
 - *Hosting:* Vercel
-
+## Backend Integration
+- The contact form sends data to the backend API
+- The API status widget checks the backend health endpoint
+- Backend hosting is expected on Render

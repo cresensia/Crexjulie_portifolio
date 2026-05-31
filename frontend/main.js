@@ -3,7 +3,9 @@ const responseStatus = document.getElementById('formResponse');
 const statusElement = document.getElementById('api-status');
 const responseElement = document.getElementById('api-response');
 
-const apiBase = 'https://crexjulie-portifolio.onrender.com';
+const apiBase = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:5000'
+  : 'https://crexjulie-portifolio.onrender.com';
 const apiStatusEndpoint = `${apiBase}/api/status`;
 const apiContactEndpoint = `${apiBase}/api/contact`;
 
