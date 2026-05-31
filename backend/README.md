@@ -42,4 +42,6 @@ The backend is built with *Node.js + Express.js* and deployed on *Render*.
 
 ## Notes
 - CORS is enabled so the frontend can call the API from Vercel.
+- Contact form submissions are received by the backend and saved in `backend/messages.txt`.
+- The backend currently does not send emails automatically. If you want messages to arrive in your email, you need to add an email service such as SendGrid, Mailgun, or Nodemailer with SMTP.
 - If your Render URL is different, update `frontend/main.js` with the deployed backend URL.

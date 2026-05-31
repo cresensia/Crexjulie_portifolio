@@ -45,6 +45,8 @@ The project includes:
 - CORS is enabled on the backend so the frontend can request the API from Vercel.
 - The contact form uses the backend endpoint at `/api/contact`.
 - The status widget checks `/api/status`.
+- Contact messages are saved on the backend, not sent to email automatically.
+- Your git commit message can be any clear text, such as `Update portfolio` or `Fix contact form`.
 
 ## Author
 Cresensia Julius
