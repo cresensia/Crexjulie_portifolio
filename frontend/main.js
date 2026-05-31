@@ -3,8 +3,9 @@ const responseStatus = document.getElementById('formResponse');
 const statusElement = document.getElementById('api-status');
 const responseElement = document.getElementById('api-response');
 
-const apiStatusEndpoint = '/api/status';
-const apiContactEndpoint = '/api/contact';
+const apiBase = 'https://crexjulie-portifolio.onrender.com';
+const apiStatusEndpoint = `${apiBase}/api/status`;
+const apiContactEndpoint = `${apiBase}/api/contact`;
 
 if (form && responseStatus) {
   form.addEventListener('submit', async function (e) {

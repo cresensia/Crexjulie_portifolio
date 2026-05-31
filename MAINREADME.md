@@ -28,30 +28,5 @@ It demonstrates **frontend deployment on Vercel** and **backend API deployment o
 3. **Connect Frontend & Backend**
    - Update `contact.html` fetch URL with your Render backend link
    
-## structure
-portfolio-website/
-│
-├── frontend/
-│   ├── index.html        # Home page
-│   ├── about.html        # Core Competencies page
-│   ├── css/
-│   │   └── style.css     # Global styles
-│   ├── assets/
-│   │   └── images      # Portfolio images/icons
-│   └── js/
-│       └── main.js       # Contact form logic
-│
-├── backend/
-│   ├── server.js         # Express backend
-│   ├── routes/
-│   │   ├── contact.js    # Contact form API
-│   │   └── status.js     # API status endpoint
-│   ├── package.json      # Dependencies
-│   └── README.md         # Backend documentation
-│
-└── MAINREADME.md             # Overall project documentation
-
-
-
 ## Author
 Cresensia Julius
