@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "^/(?:style\\.css|main\\.js|assets/.*)$", "dest": "/$0", "continue": false },
+    { "src": ".*", "dest": "/index.html" }
+  ]
+}
